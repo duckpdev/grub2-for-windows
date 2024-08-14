@@ -108,7 +108,7 @@ exit
 
 :help2
 
-for /f "delims=" %%i in ('where /q winauto.label') do (
+for /f "delims=" %%i in ('where /q grub2auto.label') do (
     del "%%i"
 )
 
